@@ -1,0 +1,91 @@
+html,
+body {
+  height: unset;
+}
+
+.cofp-wrapper {
+  position: relative;
+}
+.cofp-container {
+  margin: 120px 100px 100px;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 5px #ccc;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.cofp-title {
+  position: relative;
+  padding: 18px 35px;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 1px solid #ece5e5;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 25px;
+    top: 50%;
+    left: 20px;
+    background: #00bfff;
+    transform: translateY(-50%);
+  }
+}
+
+.cofp-query-group {
+  padding: 20px 40px;
+}
+
+.cofp-img-container {
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  .cofp-img-item {
+    margin-bottom: 15px;
+    width: 20%;
+  }
+}
+
+.cofp-img-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    display: block;
+    width: 100%;
+    max-width: 236px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .cofp-img-des {
+    padding: 12px 0;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(98, 98, 98);
+  }
+}
+
+.cofp-dialog-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #626262;
+  &:first-child {
+    margin-bottom: 30px;
+  }
+  span {
+    display: block;
+    width: 82px;
+  }
+  img {
+    display: block;
+    width: 360px;
+    border-radius: 4px;
+  }
+}

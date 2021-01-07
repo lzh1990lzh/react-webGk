@@ -1,0 +1,32 @@
+{
+    "metadata" :
+    {
+        "formatVersion" : 3.1,
+        "sourceFile"    : "map.obj",
+        "generatedBy"   : "OBJConverter",
+        "vertices"      : 4,
+        "faces"         : 1,
+        "normals"       : 4,
+        "colors"        : 0,
+        "uvs"           : 4,
+        "materials"     : 1
+    },
+    "scale" : 1.000000,
+    "materials": [	{
+	"DbgColor" : 15658734,
+	"DbgIndex" : 0,
+	"DbgName" : "map",
+	"colorDiffuse" : [0.9804, 0.9804, 0.9804],
+	"colorSpecular" : [1.0, 1.0, 1.0],
+	"mapDiffuse" : "map2.png",
+	"opacity" : 1.0,
+	"specularCoef" : 0.0
+	}],
+    "vertices": [-76.017372,-0.001140,-31.564907,-69.513084,-0.001140,42.119976,62.044830,-0.001140,-43.751892,68.549118,-0.001140,29.932991],
+    "morphTargets": [],
+    "morphColors": [],
+    "normals": [0,-1,0,0,-1,0,0,-1,0,0,-1,0],
+    "colors": [],
+    "uvs": [[0,0,0,1,1,0,1,1]],
+    "faces": [43,3,1,0,2,0,3,1,0,2,3,1,0,2]
+}

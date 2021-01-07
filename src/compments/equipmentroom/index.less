@@ -1,0 +1,140 @@
+.eqr-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.eqr-wrapper-d {
+  background: url(../../assets/eqroomback/12.jpg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.eqr-wrapper-s {
+  background: url(../../assets/eqroomback/north.jpg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.eqr-container {
+  padding: 6vw 0 0 5vw;
+  display: flex;
+}
+
+.eqr-info-l {
+  width: 34vw;
+  color: #fff;
+  border: 1px solid #01dafc;
+  background: #07183ee8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  .eqr-info-l-title {
+    position: relative;
+    padding: 20px 20px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      width: 5px;
+      height: 20px;
+      background: #01dafc;
+      transform: translateY(-50%);
+    }
+    .close {
+      cursor: pointer;
+    }
+  }
+  .eqr-info-l-list {
+    padding: 8px 12px;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      /*滚动条整体样式*/
+      width: 8px;
+      /*高宽分别对应横竖滚动条的尺寸*/
+      height: 1px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      /*滚动条里面小方块*/
+      border-radius: 5px;
+      -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      background: #01dafc;
+    }
+
+    &::-webkit-scrollbar-track {
+      /*滚动条里面轨道*/
+      -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      background: #535353;
+    }
+    .eqr-info-l-item {
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+}
+
+.eqr-info-l-ic {
+  padding: 4px 0;
+  display: flex;
+  align-items: end;
+  line-height: 3em;
+  font-size: 0.7em;
+  border-bottom: 1px solid #565656;
+  img {
+    margin-right: 5px;
+    display: block;
+    width: 25px;
+  }
+}
+
+.eqr-info-l-icl {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eqr-info-l-ict {
+  flex: 1;
+}
+
+.eqr-info-l-icb {
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 13px;
+  background: #124f9e91;
+  border-radius: 5px;
+}
+
+.eqr-info-p {
+  position: relative;
+  flex: 1;
+  padding: 0 5vw;
+  .eqr-info-p-item {
+    margin-bottom: 10px;
+    display: flex;
+    img {
+      margin-right: 10px;
+      display: block;
+      width: 65px;
+      cursor: pointer;
+    }
+  }
+}
+
+.t {
+  display: flex;
+  align-items: center;
+  span {
+    display: block;
+    width: 60px;
+  }
+}

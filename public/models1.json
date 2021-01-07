@@ -1,0 +1,115 @@
+{
+    "ver": 1,
+    "list": [
+        {
+            "name": "map",
+            "path": "/map/map.json",
+            "type": "map"
+        },
+        {
+            "name": "deng",
+            "path": "/deng/deng.json",
+            "type": "deng"
+        },
+        {
+            "name": "dimian",
+            "path": "/dimian/dimian.json",
+            "type": "dimian"
+        },
+        {
+            "name": "weiqiang",
+            "path": "/weiqiang/weiqiang.json",
+            "type": "weiqiang"
+        },
+        {
+            "name": "onetree",
+            "path": "/onetree/onetree.json",
+            "type": "onetree"
+        },
+        {
+            "name": "yizi",
+            "path": "/yizi/yizi.json",
+            "type": "yizi"
+        },
+        {
+            "name": "11hl",
+            "path": "/11hl/11hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "12hl",
+            "path": "/12hl/12hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "13hl",
+            "path": "/13hl/13hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "14hl",
+            "path": "/14hl/14hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "15hl",
+            "path": "/15hl/15hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "16hl",
+            "path": "/16hl/16hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "17hl",
+            "path": "/17hl/17hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "18hl",
+            "path": "/18hl/18hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "19hl",
+            "path": "/19hl/19hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "20hl",
+            "path": "/20hl/20hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "23hl",
+            "path": "/23hl/23hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "24hl",
+            "path": "/24hl/24hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "25hl",
+            "path": "/25hl/25hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "26hl",
+            "path": "/26hl/26hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "27hl",
+            "path": "/27hl/27hl.json",
+            "type": "cell"
+        },
+        {
+            "name": "28hl",
+            "path": "/28hl/28hl.json",
+            "type": "cell"
+        }
+    ]
+}
